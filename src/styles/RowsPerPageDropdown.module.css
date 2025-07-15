@@ -1,0 +1,13 @@
+.chevron {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%) translateX(-4px);
+  transition: transform 0.3s;
+  background: white;
+  display: flex;
+  pointer-events: none;
+}
+.chevronOpen {
+  transform: translateY(-50%) translateX(-4px) rotate(180deg);
+}
